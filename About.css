@@ -1,0 +1,46 @@
+/* About.css */
+
+.text-color {
+    color: white; /* Text color */
+  }
+  
+  /* Add margin to the top, right, bottom, and left */
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  .ms-5 {
+    margin-left: 1.25rem;
+  }
+  
+  .me-5 {
+    margin-right: 1.25rem;
+  }
+  
+  .mr-5 {
+    margin-right: 1.25rem;
+  }
+  
+  /* Style for the bold text */
+  b {
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* Add space between sections */
+  b + br {
+    margin-top: 1rem;
+  }
+  
+  /* Style for the mission and vision statements */
+  b > br + br {
+    margin-top: 1.5rem;
+  }
+  
+  /* Add space between paragraphs */
+  b + b {
+    display: block;
+    margin-top: 1.5rem;
+  }
+  

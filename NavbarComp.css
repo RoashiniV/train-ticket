@@ -1,0 +1,73 @@
+.navbar {
+  background-color:rgb(50, 94, 48);
+  padding: 7px 2px;
+  
+ }
+ .dabba{
+  background: white;
+  justify-content: center;
+  margin-top: 100px;
+  width: 500px;
+  height: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+
+ }
+ .trek {
+  font-size: 39px;
+  color:cornsilk;
+ }
+ body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/10/14/44/train-1728537_1280.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: "Serif";
+ }
+ 
+ .trailblazer {
+  margin-top: 10px;
+  font-size: 35px;
+  color:white
+ }
+ 
+ .home {
+  text-decoration: none;
+  color: rgba(232, 227, 227, 0.914);
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-style: "Serif";
+  font-family: "Serif";
+ }
+ 
+ .nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  color: white;
+ }
+ 
+ .nav-item {
+  margin: auto;
+  color: white;
+ }
+ 
+ .nav-link {
+  text-decoration: none;
+  color: rgba(254, 253, 253, 0.834);
+  font-weight: bold;
+  padding: 5px 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  font-size: 40px;
+ }
+ 
+ .nav-link:hover {
+  background-color: gray;
+ }
+ .text{
+  font-size: 50px;
+  
+ }
+ 

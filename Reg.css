@@ -1,0 +1,77 @@
+.Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("C:\Users\91867\Pictures\blur train.jpg"); 
+  
+    background-size: cover;
+    background-position: center;
+    font-family: "Times of roman";
+    
+  }
+
+  
+  .Auth-form {
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5x);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 80px;
+    height: auto;
+  }
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 39px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .link-primary {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  /* for pannel */
+  .form-control {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    transition: border-color 0.3s ease;
+  }
+  .form-control:focus {
+    outline: none;
+    border-color: #b1b5b9;
+  }
+  .btn-primary {
+    width: 50%;
+    padding: 12px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(51, 49, 49);
+  }
+  
+  .btn-primary:active {
+    transform: translateY(1px);
+  }
+  @media (max-width: 480px) {
+    .Auth-form {
+      width: 150%;
+    }
+  }
